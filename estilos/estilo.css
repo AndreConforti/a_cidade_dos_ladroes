@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+body {
+  background-color:gray;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+div#interface {
+  width: 1300px;
+  background-color: #d1c291;
+  margin: 20px auto 0px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .7);
+  padding: 50px;
+}
+
 p { 
   text-align: justify; 
   text-indent: 50px; 
@@ -22,34 +36,29 @@ h1 {
   text-align: center;
 }
   
-body {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-  
 ul {
   font-size: 20pt;
 }
 
 nav#menu li {
   display:block;
-  background-color: #ffffff;
-  color: darkblue;
+  background-color: #d1c291;
+  color: black;
   padding: 10px;
   margin: 4px;
   transition: background-color 1s;
 }
 
 nav#menu li:hover {
-  color: darkred;
+  color: darkblue;
   background-color: #dddddd;
 }
 
 nav#menu a {
-  color:darkblue;
+  color:black;
   text-decoration: none;
 }
 
 nav#menu a:hover {
-  color: darkred;
+  color: darkblue;
 }
